@@ -22,11 +22,8 @@ b.remove(4) # Removes 4 from set b
 # b.remove(14) # throws an error while trying to remove 14 (which is not present in the set)
 print(b)
 
-print(b.pop())
+print(b.pop()) # Remove item from sets
 print(b)
 
 print(b.clear()) # Remove all the items
-print(b)
-
-b.count(4)
 print(b)
